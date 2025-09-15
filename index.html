@@ -3,11 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website</title>
+    <title>My First Webpage</title>
 </head>
 <body>
-    <h1 align="center">Title of page</h1> <br>
-    <p align="center" >This web page created just for fun, to spend some time while sitting on the lectures</p>
+
+    <h1>Your Full Name</h1>
+    <h2>Course: Web Technologies</h2>
+    <h3>Student Project</h3>
+
+    <!-- Main Layout Table -->
+    <table border="1" width="100%">
+        
+        <!-- About Me Section -->
+        <tr>
+            <td width="25%" valign="top"><h3>About Me</h3></td>
+            <td valign="top">
+                <p>Hello! My name is <b>Your Full Name</b>. I am a student at AITU.  
+                This web page was created just for fun while sitting in lectures 😅📚💻</p>
+                <img width="200" src="kitty.jpeg" alt="My Picture">
+            </td>
+        </tr>
+
+        <!-- Hobbies Section -->
+        <tr>
+            <td valign="top"><h3>My Hobbies</h3></td>
+            <td valign="top">
+                <ol>
+                    <li>Volleyball</li>
+                    <li>Cooking</li>
+                </ol>
+            </td>
+        </tr>
+
+        <!-- Favourite Websites Section -->
+        <tr>
+            <td valign="top"><h3>Favourite Websites</h3></td>
+            <td valign="top">
+                <ul>
+                    <li><a href="https://www.google.com">Google</a></li>
+                    <li><a href="https://www.youtube.com">YouTube</a></li>
+                </ul>
+            </td>
+        </tr>
+
+        <!-- Button Section -->
+        <tr>
+            <td valign="top"><h3>Action</h3></td>
+            <td valign="top">
+                <button>Click me</button>
+            </td>
+        </tr>
+
+        <!-- Schedule Section -->
+        <tr>
+            <td valign="top"><h3>Schedule</h3></td>
+            <td valign="top">
+                <table border="1" width="100%">
+                    <thead>
+                        <tr>
+                            <th>Subject Name</th>
+                            <th>Day</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Web Technologies</td>
+                            <td>Monday</td>
+                            <td>03 pm - 05 pm</td>
+                        </tr>
+                        <tr>
+                            <td>Physical Education</td>
+                            <td>Tuesday</td>
+                            <td>05 pm - 07 pm</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+
+        <!-- Form Section -->
+        <tr>
+            <td valign="top"><h3>Form</h3></td>
+            <td valign="top">
+                <form>
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <br>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <br>
+
+                    <div>
+                        <label for="color">Favourite Color</label>
+                        <input type="color" name="color" id="color">
+                    </div>
+                    <br>
+
+                    <div>
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+        </tr>
+
+    </table>
 
 </body>
 </html>
